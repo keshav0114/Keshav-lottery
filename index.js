@@ -7,5 +7,5 @@ function myfunction(){
 
     console.log(deg);
 
-    document.getElementById('box').style.transform =rotate(deg);
+    document.getElementById('box').style.transform ="rotate("+deg+"deg)";
 }
