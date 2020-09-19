@@ -6,6 +6,7 @@
     <title>Spin Wheel Lottery</title>
     <link rel="stylesheet" href="style.css">
     <link href="https://fonts.googleapis.com/css2?family=Libre+Baskerville:wght@700&display=swap" rel="stylesheet">
+    <script src="https://kit.fontawesome.com/01cf3acb8e.js" crossorigin="anonymous"></script>
 </head>
 <body>
     <section id="top">
@@ -13,7 +14,7 @@
         <h1>SPIN  N  WIN</h1>
      </div>
      <div class="mainbox">
-         <div class="box">
+         <div id="box" class="box">
             <div class="box1">
                 <span class="span1"><b>1</b></span>
                 <span class="span2"><b>2</b></span>
@@ -27,8 +28,10 @@
                 <span class="span4"><b>8</b></span>
             </div>
          </div>
-         <button class="spin">SPIN</button>
+         <button class="spin" onclick="myfunction()">SPIN</button>
+         <div><i class="fas fa-arrow-left"></i></div>
      </div>
     </section>
+    <script src="index.js"></script>
 </body>
 </html>

@@ -9,7 +9,7 @@
     height: 100vh;
 }
 .header{
-    background: pink;
+    background: #91d22dfa;
     height: 10vh;
     display: flex;
     justify-content: center;
@@ -32,6 +32,7 @@
     border: 10px solid white;
     margin-top: 50px;
     overflow: hidden;
+    transition: all ease 5s;
 }
 
 span{
@@ -96,9 +97,17 @@ span b{
     font-weight: bold;
     font-size: 22px;
     cursor: pointer;
+    color: white;
 }
 .spin:active{
     width: 70px;
     height: 70px;
     font-size: 20px;
+}
+.fa-arrow-left{
+  font-size: 35px;
+  position:absolute;
+  top: 50%;
+  right: 30.8%;
+  color:#b4ff44fa;
 }
