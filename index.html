@@ -29,8 +29,34 @@
             </div>
          </div>
          <button class="spin" onclick="myfunction()">SPIN</button>
-         <div><i class="fas fa-arrow-left"></i></div>
+         <div class="arrow"><i class="fas fa-arrow-left"></i></div>
      </div>
+    </section>
+    <section class="rewards">
+     
+    <div class="inputno">
+      <label for="number">Ticket number :
+          <br>
+       <input id="input1" type="text"/>
+      </label> 
+    </div>
+    <div class="btn-class">
+    <button id="btn" onclick="getinputvalue()">Check</button>
+    </div>
+    <div class="results">
+        <div id="winner" class="image-winner">
+            <img src="Background copy.png">
+            <br>
+            <button onclick="location.reload();" >Play Again</button>
+        </div>
+        <div id="lose" class="image-lose">
+          <img src="Background copy2.png">
+          <br>
+         <button onclick="location.reload();">Play Again</button>
+        </div>
+    </div>
+
+    
     </section>
     <script src="index.js"></script>
 </body>
