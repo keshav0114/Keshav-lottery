@@ -32,6 +32,3 @@ function getinputvalue(){
     document.getElementById("lose").style.display="block";
    }
 }
-function reload(){
-    document.innerHTML="RELOAD";
-}
