@@ -8,6 +8,9 @@
     background-position: center;
     height: 100vh;
 }
+#move{
+    color: transparent;
+}
 .header{
     background: #494949fa;
     height: 10vh;
@@ -90,7 +93,7 @@ span b{
     border-radius: 50%;
     border: 5px solid white;  
     position: absolute;
-    top: 47.8%;
+    top: 50%;
     left: 47.8%;
     box-shadow: 0px 5px 20px #000;
     background-color: #ff5722;
